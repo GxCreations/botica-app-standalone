@@ -1,0 +1,35 @@
+#Footer {
+    height: 66px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    color: #333;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+    > a {
+        flex: 1;
+        text-decoration: none;
+        text-align: center;
+        line-height: 66px;
+        color: #888;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+        border-bottom: 6px solid #fff;
+
+        > svg {
+            display: block;
+            margin: auto;
+            height: 100%;
+        }
+    }
+
+    > a.selected {
+        color: $mainColor; //#2b8088;
+        border-bottom-color: $mainColor;
+    }
+}

@@ -1,0 +1,30 @@
+.defaultPage {
+    position: relative;
+    height: 100%;
+
+    .headerPanel {
+        height: 100px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .content {
+        position: relative;
+        height: 100%;
+        padding-top: 110px;
+    }
+
+    .scrollable {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 0 20px;
+    }
+    .scrollable {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 20px;
+    }
+}

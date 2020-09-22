@@ -1,0 +1,72 @@
+.fraaijCard {
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    hr {
+        border-top: 1px solid rgba(0, 0, 0, 0.12);
+        border-left-color:  rgba(0, 0, 0, 0.12);
+        margin:25px 0 15px 0;
+    }
+
+    .title {
+        line-height: 44px;
+        height: 44px;
+        overflow: hidden;
+        padding: 0 20px;
+        font-size: 1.2em;
+        font-weight: 600;        
+        overflow: hidden;
+        width: 100%;
+        letter-spacing: 0.1px;
+        background-color: rgba(59,179,189,0.8);
+        color: #fff;
+
+        .collapseIcon {
+            line-height: 44px;
+            height: 44px;
+            width: 44px;
+            text-align: center;
+            float: right;
+            position: relative;
+            right: -15px;
+            padding-top:5px;
+            color: #fff;
+            border-radius: 50%;;
+        }
+    }
+
+    
+
+    .content {
+        padding:10px 20px 20px 20px;
+
+        .header2 {
+            font-size: 1.2em;
+            padding:0 6px;
+            margin: 10px 0;
+            color: #555;
+
+            .bold {
+                color: #222;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.fraaijCard-collapsed {
+    .title {
+        background-color: #fff;
+        color: #555;
+
+        .collapseIcon { 
+            color: rgba(59,179,189,0.8);
+        }
+    }
+    .content {
+        display: none;
+    }
+}

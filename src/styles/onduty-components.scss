@@ -1,0 +1,49 @@
+.onDutyBlock {
+
+    .row {
+        display: flex;
+        margin-bottom: 8px;
+
+        .action {
+            height: 32px;
+            line-height: 32px;
+            border-radius: 16px;
+            background-color: rgba(0, 0, 0, 0.1);
+            // width: 110px;
+            width: 32px;
+            padding: 0 8px;
+            font-weight: 500;
+            color: #555;
+            display: flex;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+            > svg {
+                //position: absolute;
+                //top: 7px;
+                //left: 10px;
+                margin-top: 7px
+            }
+
+            > span {
+                display: none;
+                flex: 1;
+                width: 100%;
+                padding-left: 6px;
+            }
+        }
+
+        .text {
+            flex: 1;
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        .action,
+        .text {
+            height: 32px;
+            line-height: 32px;
+            vertical-align: text-top;
+        }
+    }
+}
+

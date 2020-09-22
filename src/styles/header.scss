@@ -1,0 +1,39 @@
+@import "./variables.scss";
+
+#Header {
+    height: $headerHeight;
+    background-color: #3bb3bd;
+    position: fixed;
+    width: 100%;
+    //padding: 20px;
+    overflow: hidden;
+    z-index: 100;
+    color: #fff;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    .title {
+        line-height: $headerHeight;
+        padding: 0 15px 0 0;
+        font-size: 22px;
+        width: 100%;
+        flex: 1;
+        text-transform: uppercase;
+    }
+
+    .icon {
+        height: $headerHeight;
+        line-height: $headerHeight;
+        width: $headerHeight;
+        text-align: center;
+
+        > svg {
+            fill: #fff;
+            width:50%;
+            height: 50%;
+            margin-top: 25%;
+        }
+    }
+}
